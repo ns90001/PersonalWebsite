@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import {Home} from "@material-ui/icons";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className="bg"></div>
+        <div className="bg bg2"></div>
+        <div className="bg bg3"></div>
+        <nav className={"navBar"}>
+            <Home cursor={"pointer"} fontSize={"large"} className={"homeBtn"}></Home>
+            <p className={"navItem"}>Projects</p>
+            <p className={"navItem"}>Experience</p>
+            <p className={"navItem"}>Hobbies</p>
+        </nav>
+      <h1 className={"title"}>Naveen Sharma</h1>
     </div>
   );
 }
