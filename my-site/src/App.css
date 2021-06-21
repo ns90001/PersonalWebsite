@@ -88,3 +88,30 @@
     transform:translateX(25%);
   }
 }
+
+.appIconBtn {
+  background: transparent;
+  border: none;
+}
+
+.appShelf {
+  margin: 30px 30px 35px 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 20px 20px;
+}
+
+.appGrid {
+  list-style-type: none;
+}
+
+.subsectionTitle {
+  font-family: Manrope;
+  font-size: 20px;
+}
+
+.subtitle {
+  margin: 50px
+}

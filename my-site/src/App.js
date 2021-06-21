@@ -12,9 +12,7 @@ import {
 
 import Projects from "./Projects";
 import Experience from "./Experience";
-import Hobbies from "./Hobbies";
-import {useEffect} from "react";
-import Background from "./Background";
+import Interests from "./Interests";
 
 function App() {
 
@@ -29,7 +27,7 @@ function App() {
                     <Link to="/home"><Home cursor={"pointer"} fontSize={"large"} className={"homeBtn"}></Home></Link>
                     <Link to="/projects" ><button className={"navItem"} cursor={"pointer"}>Projects</button></Link>
                     <Link to="/experience" ><button className={"navItem"} cursor={"pointer"}>Experience</button></Link>
-                    <Link to="/hobbies" ><button className={"navItem"} cursor={"pointer"}>Hobbies</button></Link>
+                    <Link to="/interests" ><button className={"navItem"} cursor={"pointer"}>Interests</button></Link>
                 </nav>
                 <Switch>
                     <Route exact path="/" >
@@ -54,9 +52,9 @@ function App() {
                         )}
                     />
                     <Route
-                        path='/hobbies'
+                        path='/interests'
                         render={(props) => (
-                            <Hobbies />
+                            <Interests />
                         )}
                     />
                 </Switch>
