@@ -9,18 +9,15 @@ const Background = props => {
         // background animation
 
         ctx.beginPath();
-        ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 
-        let randX = Math.random() * ctx.canvas.width;
-        let randX2 = Math.random() * ctx.canvas.width;
-        let randomColor = Math.floor(Math.random()*16777215).toString(16);
+        ctx.moveTo(0, ctx.canvas.height / 2);
 
-        ctx.fillStyle = randomColor;
-        ctx.strokeStyle = "#"+randomColor;
-        ctx.moveTo(randX, 0);
-        ctx.lineTo(randX2, ctx.canvas.height);
-        ctx.fill();
+        for (let i = 0; i < ctx.canvas.width; i++) {
+            ctx.lineTo(i, (ctx.canvas.height / 2) * Math.sin(i * 0.1) * 10);
+        }
+
         ctx.stroke();
+
     }
 
     useEffect(() => {
