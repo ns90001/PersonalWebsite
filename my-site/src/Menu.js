@@ -1,11 +1,30 @@
 import './App.css'
+import ReactTypingEffect from 'react-typing-effect';
+import { SocialIcon } from 'react-social-icons';
 
 function Menu() {
     return (
         <div className="Menu">
-            <h1 className={"title"}>Naveen Sharma</h1>
-            <p className={"subtitle"}>Brown University Class of 2024</p>
-            <img style={{width: 300}} src={"pumpkin.png"} />
+            <div className={"imgContainer"}>
+                <img class={"menuImg"} src={"pumpkin.png"} />
+            </div>
+            <div className={"titleDiv"}>
+                <ReactTypingEffect className={"title"}
+                    text={["Hi! My name is Naveen Sharma", "Bonjour! Je m'appelle Naveen Sharma"]}
+                />
+                <p className={"subtitle"}>Brown University Class of 2024</p>
+                <p className={"intro"}>
+                    I am currently a freshman student concentrating in computer science living in Providence, RI.
+                    My hometown is Toronto, ON, Canada. I am an avid distance runner and musician, with a passion for
+                    computer science and theoretical physics. On this site you can learn about my past and current CS
+                    projects, my experience in the field of computer science
+                </p>
+                <div className={"socials"}>
+                    <SocialIcon style={{margin: 10}} url={"https://www.linkedin.com/in/naveen-sharma-829498211/"}></SocialIcon>
+                    <SocialIcon style={{margin: 10}} url={"https://github.com/ns90001"}></SocialIcon>
+                    <SocialIcon style={{margin: 10}} bgColor={"red"} url={"mailto:naveen_sharma@brown.edu"}></SocialIcon>
+                </div>
+            </div>
         </div>
     );
 }

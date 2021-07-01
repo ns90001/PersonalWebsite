@@ -15,7 +15,6 @@ import Experience from "./Experience";
 import Interests from "./Interests";
 import Background from "./Background";
 import Particles from "react-tsparticles";
-import {OceanEffect, CloudWaveEffect, SpaceEffect, E} from 'react-background-animation'
 import Wave from 'react-wavify'
 
 function App() {
@@ -61,7 +60,7 @@ function App() {
                         },
                         particles: {
                             color: {
-                                value: "#111111",
+                                value: "#000000",
                             },
                             links: {
                                 color: "#222222",
@@ -96,7 +95,7 @@ function App() {
                             },
                             size: {
                                 random: true,
-                                value: 5,
+                                value: 2,
                             },
                         },
                         detectRetina: true,

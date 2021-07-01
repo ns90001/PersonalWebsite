@@ -8,16 +8,16 @@ function Interests() {
                 <img style={{width: 85}} src={"saxophone.jpg"} />
                 <div className={"textBox"}>
                     <h2>Pianist and Saxophonist</h2>
-                    <p>Worked on developing an Asciidoctor to Google Slides presentation generator for computer science education.</p>
-                    <p>Learned about the Google Slides API and how to generate detailed slide decks in Node.js</p>
+                    <p>10+ year ARCT concert-level pianist. Perform in the Brown University Chamber Music Program</p>
+                    <p>Jazz and classical alto saxophonist</p>
                 </div>
             </div>
             <div className={"appShelf"}>
                 <img style={{width: 150}} src={"running.png"} />
                 <div className={"textBox"}>
                     <h2>Long Distance Runner</h2>
-                    <p>Developing an Real-time Operating System for the PVDX cubesat in the C programming language</p>
-                    <p>Working in a team of other engineers to finish the satellite for a future launch</p>
+                    <p>800m-Half Marathon runner. Have been racing competitively for most of my life</p>
+                    <p>Notable times: 800m - 1:58, 1500m - 4:04, 6k XC - 19:44, Half Marathon - 1:15:18</p>
                 </div>
             </div>
         </div>

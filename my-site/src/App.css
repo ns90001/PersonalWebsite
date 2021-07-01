@@ -1,11 +1,17 @@
+@font-face {
+  font-family: 'Main';
+  src: local('Barlow'), url(./fonts/Barlow/Barlow-Light.ttf) format('truetype');
+}
+
 .App {
   text-align: center;
 }
 
 .title {
-  margin: 50px;
-  font-family: "Manrope";
+  font-family: Main;
+  font-weight: bold;
   font-size: 36px;
+  margin: 100px 50px 50px;
 }
 
 .navBar {
@@ -119,9 +125,71 @@
 }
 
 .subtitle {
-  margin: 50px
+  margin: 50px;
+  font-family: Main;
 }
 
 .wave {
   height: 100px;
+}
+
+.imgContainer {
+  background-color: rgba(225, 225, 225, 0.3);
+  border-radius: 25px;
+  padding: 30px;
+  width: 350px;
+  margin: 75px;
+}
+
+.menuImg {
+  width: 350px;
+  border-radius: 15px;
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-evenly;
+  horiz-align: center;
+}
+
+.titleDiv {
+  margin-top: 75px;
+  margin-right: 75px;
+  padding: 25px;
+  width: 70%;
+  height: 70%;
+  display: -moz-stack;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.66);
+  border: solid black 2px;
+}
+
+.SocialIcon {
+  margin: 30px;
+}
+
+.intro {
+  font-family: Avenir;
+  font-weight: bold;
+  margin: 50px 150px;
+}
+
+.appDiv {
+  width: 40%;
+}
+
+.appText {
+  font-family: Main;
+  text-align: start;
+}
+
+.appTextCenter {
+  font-family: Main;
+  text-align: center;
+}
+
+.phonePic {
+  margin: 10px;
+  border-radius: 25px;
+  width: 200px;
 }

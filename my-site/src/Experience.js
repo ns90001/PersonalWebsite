@@ -8,8 +8,8 @@ function Experience() {
                 <img style={{width: 300}} src={"bootstrap-logo.png"} />
                 <div className={"textBox"}>
                     <h2>Software Intern at Bootstrap World</h2>
-                    <p>Worked on developing an Asciidoctor to Google Slides presentation generator for computer science education.</p>
-                    <p>Learned about the Google Slides API and how to generate detailed slide decks in Node.js</p>
+                    <p>Worked on developing an Asciidoctor to Google Slides presentation generator for computer science education</p>
+                    <p>Generated detailed slide decks using the Google Slides API and Node.js in order to create this software</p>
                 </div>
             </div>
             <div className={"appShelf"}>
