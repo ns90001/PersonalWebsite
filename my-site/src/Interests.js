@@ -5,7 +5,7 @@ function Interests() {
         <div className="Interests">
             <h1 className={"title"}>Interests</h1>
             <div className={"appShelf"}>
-                <img style={{width: 85}} src={"saxophone.jpg"} />
+                <img style={{width: 220}} src={"chamber_music.png"} />
                 <div className={"textBox"}>
                     <h2>Pianist and Saxophonist</h2>
                     <p>10+ year ARCT concert-level pianist. Perform in the Brown University Chamber Music Program</p>

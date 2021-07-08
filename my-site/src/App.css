@@ -181,15 +181,23 @@
 .appText {
   font-family: Main;
   text-align: start;
+  line-height: 1.8;
 }
 
 .appTextCenter {
   font-family: Main;
   text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .phonePic {
   margin: 10px;
-  border-radius: 25px;
-  width: 200px;
+  border-radius: 20px;
+  width: 13%;
+}
+
+imageSlider {
+  width: 500px;
+  height: 500px;
 }

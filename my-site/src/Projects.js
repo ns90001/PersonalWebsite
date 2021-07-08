@@ -38,7 +38,10 @@ function Projects() {
                     <p className={"subsectionTitle"}>Web Apps</p>
                     <div className={"appShelf"}>
                         <div className={"appDiv"}>
-                            <ReactPlayer light={"our_campus.png"} url={"https://www.youtube.com/watch?v=Ztbcy1WABpI"} />
+                            <div className={"player"}>
+                                <ReactPlayer width={500} light={"our_campus.png"} url={"https://www.youtube.com/watch?v=Ztbcy1WABpI"} />
+                            </div>
+                            <div style={{height:110}}></div>
                             <p>OurCampus</p>
                             <p className={"appText"}>OurCampus is a web application written primarily in React.js. The purpose of the app
                             is to give a way for students to plan events, meet new people, and find new opportunities around them.
@@ -61,7 +64,7 @@ function Projects() {
                                 route (in blue) and a weather adjusted route (in red)*. Also, they will receive a report of weather conditions
                                 along different points in the route. Using WeatherRouter, users will now be able to plan ahead to increase driving safety.
                             </p>
-                            <p className={"appText"}>*: note in the image shown bad weather was simulated on a smaller scale for demonstration purposes
+                            <p className={"appText"}>*note: in the image shown, bad weather was simulated on a smaller scale for demonstration purposes
                             </p>
                         </div>
                     </div>
@@ -77,10 +80,10 @@ function Projects() {
                             <img className={"phonePic"} src={"tracklete_4.png"} />
                             <img className={"phonePic"} src={"tracklete_5.png"} />
                            <p className={"appTextCenter"}>Tracklete is an innovative mobile application to improve the coaching experience in the sport of running.
-                           As a track and field athlete, I personally felt that this application is something desperately needed to bring the coaching aspect of the sport into the future.
+                           As a track and field athlete, I personally felt that this application is something desperately needed to bring the coaching aspect of the sport to the next level.
                            Tracklete offers methods to create custom races in workouts within the app, time multiple athletes at the same time, and receive detailed graphics on the runners'
-                           stats throughout the race/workout. This application is still a work in progress however. The expected launch year is 2022. The future of Tracklete
-                           will include: individualized athlete reports, algorithm recommendations for workouts, as well as integration with running accessories like smart watches.</p>
+                           stats throughout the race/workout. However, this application is still a work in progress. The expected launch year is 2022. The future of Tracklete
+                           will include: individualized athlete reports, algorithmic recommendations for workouts, as well as integration with running accessories such as smart watches.</p>
                         </div>
                     </div>
                 </li>
