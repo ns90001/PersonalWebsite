@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react'
-import {rgbToHex, useRadioGroup} from "@material-ui/core";
 
 const Background = props => {
 
