@@ -17,7 +17,7 @@
     "react-player": "^2.9.0",
     "react-responsive-carousel": "^3.2.19",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "react-simple-image-slider": "^2.1.2",
     "react-social-icons": "^5.5.0",
     "react-tsparticles": "^1.29.2",

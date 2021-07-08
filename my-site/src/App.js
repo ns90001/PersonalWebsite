@@ -13,18 +13,13 @@ import {
 import Projects from "./Projects";
 import Experience from "./Experience";
 import Interests from "./Interests";
-import Background from "./Background";
 import Particles from "react-tsparticles";
-import Wave from 'react-wavify'
 
 function App() {
 
     return (
         <div className="App">
             <Router>
-                {/*<div className="bg"></div>*/}
-                {/*<div className="bg bg2"></div>*/}
-                {/*<div className="bg bg3"></div>*/}
                 <Particles
                     className={"background"}
                     options={{
