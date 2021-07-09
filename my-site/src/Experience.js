@@ -16,7 +16,7 @@ function Experience() {
                 <img style={{width: 325}} src={"bse.png"} />
                 <div className={"textBox"}>
                     <h2>Flight Software Engineer at Brown Space Engineering</h2>
-                    <p>Developing an Real-time Operating System for the PVDX cubesat in the C programming language</p>
+                    <p>Developing a Real-time Operating System for the PVDX cubesat in the C programming language</p>
                     <p>Working in a team of other engineers to finish the satellite for a future launch</p>
                 </div>
             </div>
