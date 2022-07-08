@@ -39,11 +39,11 @@
   width: 100%;
   text-decoration: none;
   font-family: Main2;
-  font-size: 20px;
+  font-size: 25px;
   color: black;
   background: transparent;
   border: none;
-  border-left: solid 1px gray;
+  border-left: solid 2px gray;
 }
 
 .background {

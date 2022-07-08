@@ -16,7 +16,7 @@ function Interests() {
                 <img style={{width: 150}} src={"running.png"} />
                 <div className={"textBox"}>
                     <h2>Long Distance Runner</h2>
-                    <p>800m-Half Marathon runner. Have been racing competitively for most of my life</p>
+                    <p>800m to Half Marathon runner. Have been racing competitively since age 6</p>
                     <p>Notable times: 800m - 1:58, 1500m - 4:04, 6k XC - 19:44, Half Marathon - 1:15:18</p>
                 </div>
             </div>

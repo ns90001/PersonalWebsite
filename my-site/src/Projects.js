@@ -2,6 +2,8 @@ import './App.css'
 import 'react-image-shadow/assets/index.css';
 import ImageShadow from 'react-image-shadow';
 import ReactPlayer from "react-player";
+import car_gif from "../src/car_morph_1.gif"
+import art_gif from "../src/gif2.gif"
 
 function Projects() {
     return (
@@ -9,6 +11,24 @@ function Projects() {
             <h1 className={"title"}>Projects</h1>
             <ul className={"appGrid"}>
                 <li>
+                    <p className={"subsectionTitle"}>Deep Learning Projects</p>
+                        <div className="appShelf">
+                            <div className={"appDiv"}>
+                                <img style={{width: 500}} src={"color_blindness.png"} />
+                                <p>DeepCorrect</p>
+                                <p className={"appText"}>Color vision deficiency affects 8% of men. I am one of them. I have difficulties distinguishing between red and green colored objects. This prompted my team to ponder whether deep learning could be used to help with color blindness. After some research, we came across one research paper that uses deep learning to create a color correction program that can aid with object recognition.
+                                    The DeepCorrect model is a GAN-like deep learning model trained on the Pascal dataset. It is composed of two main components: the Corrector and the Referee. The Corrector takes in image data and applies convolutional layers and a linear corrector layer to produce color corrected images. Then The Referee, which is similar to the Discriminator in GANs, determines the quality of the generated image. </p>
+                            </div>
+                            <div className={"appDiv"}>
+                                <div>
+                                    <img style={{width: 280}} src={car_gif} />
+                                    <img style={{width: 280}} src={art_gif} />
+                                </div>
+                                <p>Image Morphing with GAN models</p>
+                                <p className={"appText"}>This project explored several techniques for morphing images together. Through several experiments on four different datasets, my team and I explored latent vector approximations, autoencoders, the StyleGAN generative model, and linear interpolation. After achieving image morphing with both pretrained networks and custom trained networks, we were able to compare and contrast the different approaches and datasets. We determined that the e4e and StyleGAN architecture produced the best morphing results. We also learned that the variation in image datasets plays a crucial role in the success of generative models and latent vector approximations, and as a result affects image morphing.
+                                </p>
+                            </div>
+                        </div>
                     <p className={"subsectionTitle"}>Games</p>
                         <div className="appShelf">
                             <div>
@@ -56,7 +76,7 @@ function Projects() {
                             <img style={{width: 400}} src={"weather_router.png"} />
                             <img style={{width: 400}} src={"weather_router_results.png"} />
                             <p>Weather Router</p>
-                            <p className={"appText"}>Weather Router is a web application written in Java and React. This app's aim to improve driving safety
+                            <p className={"appText"}>Weather Router is a web application written in Java and React. This app's aim is to improve driving safety
                                 by offering navigation and route planning services which are sensitive to weather conditions. On the page shown
                                 in the first image above, users can input a trip with a start location, destination and any number of
                                 planned stops up to a week in advance. Then our algorithm consults the National Weather Service API to
