@@ -5,12 +5,21 @@ function Experience() {
         <div className="Experience">
             <h1 className={"title"}>Experience</h1>
             <div className={"appShelf"}>
+                <img style={{width: 200}} src={"palantir.png"} />
+                <div className={"textBox"}>
+                    <h2>Forward Deployed Software Engineering Intern at Palantir Technologies</h2>
+                    <p>In the summer of 2023, I led the development of a chemical matching system for a leading steel manufacturer.</p>
+                    <p>Throughout the summer, I presented my product to clients and executives onsite at several company offices </p>
+                    <p>and helped develop an optimized steel melting schedule tool for use in two 24-hour manufacturing plants.</p>
+                </div>
+            </div>
+            <div className={"appShelf"}>
                 <img style={{width: 200}} src={"pfg.png"} />
                 <div className={"textBox"}>
                     <h2>Software Engineering Intern at Principal Financial Group</h2>
-                    <p>For the summer of 2022, I am working at Principal Financial Group in the Enterprise Data Analytics (EDA) division.</p>
-                    <p>I work with AWS and Python to deliver employee data to third party clients.</p>
-                    <p>Within EDA, my team and I are developing Principal's enterprise data mesh.</p>
+                    <p>For the summer of 2022, I worked at Principal Financial Group in the Enterprise Data Analytics (EDA) division.</p>
+                    <p>I worked with AWS and Python to deliver employee data to third party clients.</p>
+                    <p>Within EDA, my team and I worked to develop Principal's enterprise data mesh.</p>
                 </div>
             </div>
             <div className={"appShelf"}>

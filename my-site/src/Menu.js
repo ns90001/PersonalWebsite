@@ -14,7 +14,7 @@ function Menu() {
                 />
                 <p className={"subtitle"}>Brown University Class of 2024</p>
                 <p className={"intro"}>
-                    I am currently a junior in college concentrating in computer science. Right now, I am living in
+                    I am currently a senior in college concentrating in computer science. Right now, I am living in
                     Providence, RI. My hometown is Toronto, ON, Canada. I am an avid distance runner and musician,
                     with a passion for computer science and theoretical physics. On this site you can learn about my
                     past and current CS projects, my experience in the field of computer science, and some of the other
